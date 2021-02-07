@@ -17,8 +17,8 @@ git clone https://github.com/lisaac/luci-app-dockerman.git package/my-package/lu
 git clone https://github.com/lisaac/luci-lib-docker.git package/my-package/luci-lib-docker
 
 # adguardhome
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/my-package/luci-app-adguardhome
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/my-package/adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/my-package/luci-app-adguardhome
+#svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/my-package/adguardhome
 
 # netdata
 git clone https://github.com/sirpdboy/luci-app-netdata.git package/my-package/luci-app-netdata
