@@ -69,17 +69,17 @@ jobs:
         rm -rf package/ctcgfw/{luci-app-argon-config,luci-theme-argonv3}
         rm -rf package/lean/{luci-app-netdata,luci-theme-argon,k3screenctrl}
 
-    - name: 加载自定义设置
+    - name: 加载feeds设置
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
-    - name: 更新自定义设置
+    - name: 更新feeds设置
       run: cd openwrt && ./scripts/feeds update -a
 
-    - name: 安装自定义设置
+    - name: 安装feeds设置
       run: cd openwrt && ./scripts/feeds install -a
 
     - name: 加载自定义配置
