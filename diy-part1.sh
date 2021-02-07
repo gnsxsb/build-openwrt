@@ -1,5 +1,6 @@
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+git clone https://github.com/fw876/helloworld.git package/my-package/helloworld
 
 # poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/my-package/luci-app-poweroff
