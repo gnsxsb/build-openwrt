@@ -1,1 +1,1 @@
-# build-openwrt2
+# cd openwrt && make menuconfig
