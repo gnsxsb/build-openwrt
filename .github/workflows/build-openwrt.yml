@@ -37,7 +37,7 @@ jobs:
       uses: actions/checkout@main
     
     - name: 微信通知
-      uses: emon100/Action-Serverchan@main
+      uses: emon100/Action-Serverchan@v2
       if: env.SERVERCHAN_SCKEY == 'true' || (github.event.inputs.wxtz == 'wxtz' && github.event.inputs.wxtz  != 'false')
       with:
         SCKEY: ${{ secrets.SCKEY }}
@@ -143,7 +143,7 @@ jobs:
         echo "::set-output name=status::success"
 
     - name: 上传.config配置文件在github空间
-      uses: actions/upload-artifact@main
+      uses: actions/upload-artifact@v2
       if: steps.organizer.outputs.status == 'success' && env.UPLOAD_CONFIG == 'true'
       with:
         name: .config-${{ env.NAME2 }}${{ env.NAME1 }}_${{ env.date }}
