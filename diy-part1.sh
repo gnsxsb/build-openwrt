@@ -12,8 +12,10 @@ git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/my-package
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/my-package/luci-theme-argon
 
 # smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/my-package/luci-app-smartdns
-git clone https://github.com/pymumu/openwrt-smartdns.git package/my-package/smartdns
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-smartdns package/my-package/luci-app-smartdns
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns package/my-package/smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/my-package/luci-app-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns.git package/my-package/smartdns
 
 # dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/my-package/luci-app-dockerman
