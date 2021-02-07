@@ -1,9 +1,6 @@
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-
 # poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/my-package/luci-app-poweroff
 
