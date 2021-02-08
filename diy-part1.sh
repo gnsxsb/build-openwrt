@@ -14,6 +14,9 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns package/my-pa
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/my-package/luci-app-smartdns
 #git clone https://github.com/pymumu/openwrt-smartdns.git package/my-package/smartdns
 
+# control-weburl
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-weburl package/my-package/control-weburl
+
 # dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/my-package/luci-app-dockerman
 git clone https://github.com/lisaac/luci-lib-docker.git package/my-package/luci-lib-docker
