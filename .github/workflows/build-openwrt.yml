@@ -25,7 +25,7 @@ env:
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
   SCKEY: ${{ secrets.SCKEY }}
   TZ: Asia/Shanghai
-  GITHUB_RELEASE:
+  GITHUB_RELEASE: https://github.com/1553800919/build-openwrt/actions
 
 jobs:
   build:
@@ -153,9 +153,6 @@ jobs:
         SCKEY: ${{ secrets.SCKEY }}
         text: 恭喜主人固件编译成功！
         desp: 我亲爱的主人您要编译的固件顺利编译完成了！
-              
-              
-              完成时间：${{ env.date1 }}
               
               
               发布地址：${{ env.GITHUB_RELEASE }}
