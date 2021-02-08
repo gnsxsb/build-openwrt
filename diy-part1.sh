@@ -20,7 +20,7 @@ git clone https://github.com/lisaac/luci-lib-docker.git package/my-package/luci-
 git clone https://github.com/kongfl888/luci-app-adguardhome.git package/my-package/luci-app-adguardhome
 
 # turboacc
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-turboacc package/my-package/luci-app-turboacc
+# svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-turboacc package/my-package/luci-app-turboacc
 
 # wrtbwmon-zhcn
 git clone https://github.com/firker/luci-app-wrtbwmon-zh.git package/my-package/luci-app-wrtbwmon-zhcn
