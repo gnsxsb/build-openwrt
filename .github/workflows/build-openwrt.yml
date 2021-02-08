@@ -22,7 +22,6 @@ env:
   DIY_P2_SH: diy-part2.sh
   SERVERCHAN_SCKEY: true
   UPLOAD_FIRMWARE: true
-  UPLOAD_CONFIG: true
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
   SCKEY: ${{ secrets.SCKEY }}
   TZ: Asia/Shanghai
