@@ -1,6 +1,5 @@
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-git clone https://github.com/fw876/helloworld.git package/my-package/helloworld
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/my-package/luci-app-poweroff
@@ -22,15 +21,11 @@ git clone https://github.com/lisaac/luci-app-dockerman.git package/my-package/lu
 git clone https://github.com/lisaac/luci-lib-docker.git package/my-package/luci-lib-docker
 
 # adguardhome
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/my-package/luci-app-adguardhome
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/my-package/luci-app-adguardhome
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/my-package/adguardhome
 
 # turboacc
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-turboacc package/my-package/luci-app-turboacc
-
-# netdata
-git clone https://github.com/sirpdboy/luci-app-netdata.git package/my-package/luci-app-netdata
 
 # wrtbwmon-zhcn
 git clone https://github.com/firker/luci-app-wrtbwmon-zh.git package/my-package/luci-app-wrtbwmon-zhcn
