@@ -13,13 +13,9 @@ git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
 
 # dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
-# git clone https://github.com/lisaac/luci-lib-docker.git package/lean/luci-lib-docker
 
 # adguardhome
 git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/luci-app-adguardhome
-
-# wrtbwmon-zhcn
-git clone https://github.com/firker/luci-app-wrtbwmon-zh.git package/lean/luci-app-wrtbwmon-zhcn
 
 # ttnode
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
