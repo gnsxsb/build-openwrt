@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
-    - 名字: 检查
+    - name: 检查
       uses: actions/checkout@v2
     
     - name: 微信通知
