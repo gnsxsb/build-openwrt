@@ -67,7 +67,7 @@ jobs:
         rm -rf package/lienol/luci-app-timecontrol
         rm -rf package/ntlf9t/{smartdns,luci-app-smartdns}
         rm -rf package/ctcgfw/{luci-app-argon-config,luci-theme-argonv3}
-        rm -rf package/lean/luci-theme-argon}
+        rm -rf package/lean/luci-theme-argon
 
     - name: 加载feeds设置
       run: |
