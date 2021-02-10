@@ -11,6 +11,10 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
 
+# wrtbwmon-zhcn
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn package/lean/luci-app-wrtbwmon-zhcn
+svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/lean/wrtbwmon
+
 # dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
 
